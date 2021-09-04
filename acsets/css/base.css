@@ -1,0 +1,59 @@
+:root {
+    --while-color: #fff;
+    --black--color: #000;
+    --text-color: #c2c8cb;
+    --navbar-color: #5e6d81;
+    --btn-color: #1bbc9b;
+}
+
+* {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+.gird__column-3 {
+    padding: 15px;
+    width: 33.3333%;
+}
+
+.gird__column-4 {
+    padding: 15px;
+    width: 25%;
+}
+
+.grid__column-3-4 {
+    padding: 15px;
+    width: 75%;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
